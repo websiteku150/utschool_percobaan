@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.nav {
+    display: flex;
+    margin: auto;
+    background-color: #007bff;
+    padding: 15px;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+.link {
+    margin: auto;
+    text-align: center;
+}
+.link a {
+    margin-left: 50px ;
+    text-decoration: none;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+.link a:hover {
+    border-bottom: 2px solid white;
+}
+.riwayat {
+    padding-top: 100px;
+}
+.riwayat h3 {
+    background-color: #007bff;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.riwayat h4 {
+    background-color: rgb(189, 189, 189);
+    padding: 4px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.riwayat ul {
+    list-style: none;
+    margin-left: 50px;
+}
+.minat {
+    padding-top: 20px;
+}
+.minat h3 {
+     background-color: #007bff;
+    padding: 10px;
+    width: 270px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.minat ul {
+    list-style: none;
+    margin-left: 20px;
+}
+.minat h4 {
+    background-color: rgb(189, 189, 189);
+    padding: 4px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    margin-top: 10px;
+}
+.minat ol {
+    list-style: none;
+    margin-left: 30px;
+}
+.citacita {
+    padding-top: 20px;
+}
+.citacita h3 {
+    background-color: #007bff;
+    padding: 10px;
+    width: 340px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.citacita p {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 95%;
+}
+.copyright {
+    background-color: #007bff;
+    margin-top: 50px;
+    padding: 10px;
+    color: white;
+    text-align: right;
+    font-style: italic;
+}
